@@ -1,0 +1,6 @@
+#Debugging file
+.vscode/
+
+#Dependencies
+bin/
+obj/
