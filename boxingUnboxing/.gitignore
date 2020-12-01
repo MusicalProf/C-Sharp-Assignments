@@ -1,0 +1,9 @@
+#Debugging
+.vscode
+
+#Dependencies
+bin/
+obj/
+
+#CSProj file
+.csproj
