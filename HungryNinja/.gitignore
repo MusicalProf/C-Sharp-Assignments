@@ -1,0 +1,4 @@
+#Dependencies and debugging
+.vscode/
+bin/
+obj/
