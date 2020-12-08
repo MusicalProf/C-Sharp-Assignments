@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/PortfolioI.csproj": {}
+  },
+  "projects": {
+    "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/PortfolioI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/PortfolioI.csproj",
+        "projectName": "PortfolioI",
+        "projectPath": "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/PortfolioI.csproj",
+        "packagesPath": "/Users/musicalprof/.nuget/packages/",
+        "outputPath": "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/musicalprof/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
