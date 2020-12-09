@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mx-auto border">
+        <h1 class="jumbotron display-4">Below we have some delicious Foods</h1>
+        <hr>
+        @{
+            string[] foodles = new string[] {
+                "Cherries",
+                "Kiwis",
+                "Tacos",
+                "Apple Pie",
+                "Burritos",
+                "Donuts",
+                "Chocolate Cake",
+                "Cookies"
+
+            };
+            <!-- Sort the array in alphabetical order -->
+            Array.Sort(foodles);
+            foreach(string food in foodles){
+                if(food.StartsWith("C"))
+                {
+                    <p class="red text-center">@food</p>
+                }
+                else
+                {
+                    <p class="text-center">@food</p>
+                }                    
+            }
+        }
+    </div>
+</body>
+
+</html>
