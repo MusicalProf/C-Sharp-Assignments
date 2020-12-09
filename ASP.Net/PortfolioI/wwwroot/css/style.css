@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(27, 160, 169);
+}
+
+p, img, h4, form{
+    display: none;
+}

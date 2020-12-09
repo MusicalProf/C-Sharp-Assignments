@@ -14390,6 +14390,22 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "PortfolioI",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/Views/Home/Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/Views/Home/Projects.cshtml",
+      "TargetPath": "Views\\Home\\Projects.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

@@ -17,3 +17,16 @@
 /Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.dll
 /Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.pdb
 /Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.genruntimeconfig.cache
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/bin/Debug/netcoreapp3.1/PortfolioI.Views.dll
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/bin/Debug/netcoreapp3.1/PortfolioI.Views.pdb
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.RazorAssemblyInfo.cache
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.RazorAssemblyInfo.cs
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.TagHelpers.input.cache
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.TagHelpers.output.cache
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.RazorCoreGenerate.cache
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contact.cshtml.g.cs
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/Razor/Views/Home/Projects.cshtml.g.cs
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.RazorTargetAssemblyInfo.cs
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.Views.pdb
+/Users/musicalprof/Documents/codingDojo/CSharp/C-Sharp-Assignments/ASP.Net/PortfolioI/obj/Debug/netcoreapp3.1/PortfolioI.csproj.CopyComplete
