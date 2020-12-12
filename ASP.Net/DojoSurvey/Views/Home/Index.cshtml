@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>DojoSurvey</title>
+</head>
+<body>
+    <h1 class="text-center">Hello There! Welcome to Dojo Survey!</h1>
+    <hr>
+    <div class="container rounded-lg col-6 bg-dark text-white py-3 my-3">
+        <h3>Please fill out the information below.</h3>
+        <form action="/result" method="POST">
+            <div class="form-group mt-3">
+                <label for="Name">Your Name</label>
+                <input type="text" name="Name" class="form-control">
+                <label for="Location">Location</label>
+                <select name="Location" class="form-control">
+                    <option value="">Select:</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Seattle">Seattle</option>
+                </select>
+                <label for="Language">Favorite Language</label>
+                <select name="Language" class="form-control">
+                    <option value="">Select:</option>
+                    <option value="C#">C#</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Java">Java</option>
+                </select>
+                <label for="Comment">Comment (optional):</label>
+                <textarea name="Comment" class="form-control" cols="10" rows="3"></textarea>
+                <br>
+                <input type="submit" value="Submit" class="btn btn-primary shadow btn-outline-success">                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
