@@ -1,0 +1,23 @@
+@{
+ViewData["Title"] = "Reset Page";
+}
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Congratulation!!!</h1>
+        <h5>
+            Fullness: @ViewBag.Fullness
+            Happiness: @ViewBag.Happiness
+            Meals: @ViewBag.Meals
+            Energy: @ViewBag.Energy
+        </h5>
+        <br>
+        <div class="border border-primary rounded-circle shadow mx-auto col-sm-2">
+            <em class="nes-squirtle"></em>
+        </div>
+        <br><br>
+        <h5>@ViewBag.Statement</h5>
+        <br>
+        <a href="/" class="nes-btn is-warning">Restart</a>
+    </div>
+</div>

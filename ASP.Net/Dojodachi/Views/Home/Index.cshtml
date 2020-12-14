@@ -1,0 +1,26 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Welcome to DojoDachi!</h1>
+        <h5 class="display-6">
+            Fullness: @ViewBag.Fullness
+            Happiness: @ViewBag.Happiness
+            Meals: @ViewBag.Meals
+            Energy: @ViewBag.Energy
+        </h5>
+        <br>
+        <div class="border border-primary rounded-circle shadow mx-auto col-sm-2">
+            <em class="nes-squirtle"></em>
+        </div>
+        <br><br>
+        <h5>@ViewBag.Statement</h5>
+        <br>
+        <a href="/feeding" class="nes-btn is-primary">Feed</a>
+        <a href="/play" class="nes-btn is-error">Play</a>
+        <a href="/work" class="nes-btn is-warning">Work</a>
+        <a href="/sleep" class="nes-btn is-primary">Sleep</a>
+    </div>
+</div>

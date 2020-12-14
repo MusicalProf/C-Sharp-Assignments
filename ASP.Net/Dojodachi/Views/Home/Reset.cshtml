@@ -1,0 +1,23 @@
+@{
+ViewData["Title"] = "Reset Page";
+}
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">OH NO!!</h1>
+        <h5>
+            Fullness: 0
+            Happiness: 0
+            Meals: 0
+            Energy: 0
+        </h5>
+        <br>
+        <div class="border border-primary rounded-circle mx-auto shadow col-sm-2">
+            <em class="nes-squirtle"></em>
+        </div>
+        <br><br>
+        <h5>@ViewBag.Statement</h5>
+        <br>
+        <a href="/" class="nes-btn is-warning">Reset</a>
+    </div>
+</div>
