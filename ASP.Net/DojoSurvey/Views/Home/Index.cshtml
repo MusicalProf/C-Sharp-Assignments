@@ -13,11 +13,13 @@
     <hr>
     <div class="container rounded-lg col-6 bg-dark text-white py-3 my-3">
         <h3>Please fill out the information below.</h3>
-        <form action="/result" method="POST">
+        @model Survey
+        <form asp-action="Create" method="POST">
             <div class="form-group mt-3">
-                <label for="Name">Your Name</label>
+                <label asp-for="Name"></label>
                 <input type="text" name="Name" class="form-control">
-                <label for="Location">Location</label>
+                <span asp-validation-for="Name" class="text-info"></span><br>
+                <label asp-for="Location"></label>
                 <select name="Location" class="form-control">
                     <option value="">Select:</option>
                     <option value="San Jose">San Jose</option>
@@ -25,7 +27,8 @@
                     <option value="Chicago">Chicago</option>
                     <option value="Seattle">Seattle</option>
                 </select>
-                <label for="Language">Favorite Language</label>
+                <span asp-validation-for="Location" class="text-info"></span><br>
+                <label asp-for="Language"></label>
                 <select name="Language" class="form-control">
                     <option value="">Select:</option>
                     <option value="C#">C#</option>
@@ -33,8 +36,10 @@
                     <option value="JavaScript">JavaScript</option>
                     <option value="Java">Java</option>
                 </select>
-                <label for="Comment">Comment (optional):</label>
+                <span asp-validation-for="Language" class="text-info"></span><br>
+                <label asp-for="Comment"></label>
                 <textarea name="Comment" class="form-control" cols="10" rows="3"></textarea>
+                <span asp-validation-for="Comment" class="text-info"></span><br>
                 <br>
                 <input type="submit" value="Submit" class="btn btn-primary shadow btn-outline-success">
             </div>

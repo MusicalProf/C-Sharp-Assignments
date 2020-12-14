@@ -13,10 +13,23 @@ namespace DojoSurvey.Controllers
             return View();
         }
 
-        [HttpPost("result")]
+        [HttpPost("create")]
+        public IActionResult Create(Survey newSurvey)
+        {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("result", newSurvey);
+            }
+            else
+            {
+                return View("Index");
+            }
+        }
+
+        [HttpGet("result")]
         public IActionResult Result(Survey newSurvey)
         {
-            return View("Result", newSurvey);
+            return View(newSurvey);
         }
     }
 }
