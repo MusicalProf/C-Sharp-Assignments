@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+@model User
+
+<h1 class="text-center bg-dark text-success">Welcome @Model.FirstName @Model.LastName</h1>
+
+<a href="/logout" class="btn btn-primary btn-outline-warning">Log Out</a>
