@@ -12,7 +12,6 @@ namespace CRUDelicious.Controllers
 {
     public class HomeController : Controller
     {
-
         private MyContext _context;
 
         public HomeController(MyContext context)
